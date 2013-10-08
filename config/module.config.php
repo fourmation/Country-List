@@ -245,4 +245,9 @@
         'ZR' => 'Zaire',
         'ZW' => 'Zimbabwe',
     ),
+    'service_manager' => array(
+        'invokables' => array(
+            'CountryService' => 'CountryList\Service\Country',
+        ),
+    ),
 );
